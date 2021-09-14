@@ -1,0 +1,69 @@
+.header {
+    width: 100%;
+    background-color: #01983b;
+    background-image: url(../../../image/pattern.png);
+    background-repeat: repeat;
+    max-height: 76px;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    font-size: 16px;
+ 
+
+
+    &__nav {
+        width: 100%;
+    }
+
+    &__list {
+        display: flex;
+        margin-bottom: 0;
+        list-style-type: none;
+        color: #fff;
+        align-items: center;
+        padding: 0;
+    }
+
+    &__item {
+        padding: 16px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+
+        &::before {
+            content: ('');
+            display: block;
+            max-width: 120px;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 6px;
+            display: none;
+        }
+
+        &::after {
+            content: ('');
+            display: block;
+            max-width: 120px;
+            height: 2px;
+            background-color: #fff;
+            margin-top: 6px;
+            display: none;
+        }
+
+        &:hover::before,
+        &:hover::after {
+            display: block;
+        }
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+}

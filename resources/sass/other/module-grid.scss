@@ -1,0 +1,79 @@
+.module-grid::after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.module-grid__cell-12 {
+	float: left;
+	width: 100%;
+}
+
+.module-grid__cell-11 {
+	float: left;
+	width: 91.66667%;
+}
+
+.module-grid__cell-10 {
+	float: left;
+	width: 83.33334%;
+}
+
+.module-grid__cell-9 {
+	float: left;
+	width: 75%;
+}
+
+.module-grid__cell-8 {
+	float: left;
+	width: 66.66667%;
+}
+
+.module-grid__cell-7 {
+	float: left;
+	width: 58.33334%;
+}
+
+.module-grid__cell-6 {
+	float: left;
+	width: 50%;
+}
+
+.module-grid__cell-5 {
+	float: left;
+	width: 41.66667%;
+}
+
+.module-grid__cell-4 {
+	float: left;
+	width: 33.33334%;
+}
+
+.module-grid__cell-3 {
+	float: left;
+	width: 25%;
+}
+
+.module-grid__cell-2 {
+	float: left;
+	width: 16.66667%;
+}
+
+.module-grid__cell-1 {
+	float: left;
+	width: 8.33334%;
+}
+
+/* с отступами. В данном случае класс "module-grid--gutters" согласно терминологии БЭМ (кстати, почитайте о ней, полезная штука!) является модификатором.
+А модификатор НЕ может применяться без названия самого блока. Т.к. в данном случае, у блока должно быть 2 класса: "module-grid  module-grid--gutters" */
+
+.module-grid--gutters {
+	margin: 0 -10px;
+}
+
+.module-grid--gutters > * {
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}

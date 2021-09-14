@@ -1,0 +1,18 @@
+@import 'settings/all-settings';
+
+// сбор всех сторонних стилей: normalize, плагины и всяко прочее из node_modules
+// -------------------------------------------------
+@import '~normalize.css/normalize.css';
+
+
+// сбор всех основных блоков для текущего проекта
+// -------------------------------------------------
+@import 'blocks/html';
+@import 'blocks/container';
+@import 'blocks/main';
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/layout';
+
+@import 'other/module-grid';
+@import 'other/fonts';
