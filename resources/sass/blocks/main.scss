@@ -132,16 +132,29 @@
         }
         
         &-bullets{
-            
+
         }
     }
 }
 
 
 .image-slider .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    right: -10px;
+    right: -40px;
 }
 
 .image-slider .swiper-button-prev, .swiper-rtl .swiper-button-next {
-    left: -10px;
+    left: -40px;
+}
+
+
+
+.wrapper{
+    position: relative;
+}
+
+.image-slider .swiper-pagination{
+    position: absolute;
+    left: 21px !important; 
+    bottom: 12px !important;
+    width: auto !important;
 }
