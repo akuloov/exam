@@ -9,4 +9,9 @@ new Swiper('.image-slider',{
        clickable: true,
   },
     loop: true,
+    
+    autoplay: {
+        delay: 4500,
+    },
+    
 }); 

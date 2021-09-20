@@ -59,11 +59,19 @@
         &:hover::after {
             display: block;
         }
+        &:active::before,
+        &:active::after{
+            display: block;
+        }
     }
 
     &__link {
         color: #fff;
         text-decoration: none;
+        &:active header__item::before,
+        &:active header__item::after{
+            display: block;
+        }
     }
 
 }
