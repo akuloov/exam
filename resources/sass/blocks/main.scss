@@ -107,8 +107,16 @@
 
 .slideshow {}
 
+.slide-image {
+    background-image: url(../../image/slide-shadow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .image-slider {
     overflow: hidden;
+
 
     &__wrapper {}
 
@@ -184,6 +192,24 @@
         font-size: 24px;
         font-weight: 700;
         margin: 0;
-        
+
     }
+}
+
+.main-video {
+    background-image: url(../../image/bgc-frame.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+
+}
+
+
+.title__link {
+    text-align: center;
+}
+
+
+.title__logo {
+    text-align: center;
 }
