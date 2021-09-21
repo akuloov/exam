@@ -199,17 +199,46 @@
 .main-video {
     background-image: url(../../image/bgc-frame.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 406px;
     height: 800px;
+    padding-top: 68px;
+    position: relative;
+ 
+}
 
+.video-block {
+    
+    &-title{
+        text-align: center;
+    }
+    
+    &-iframe{
+        text-align: center;
+        
+    }
+    
+    &__image{
+        position: absolute;
+        top: 195px;
+        left: -200px;
+
+    }
+}
+
+.title__logo{
+    max-width: 375px;
+    max-height: 30px;
+}
+
+.title__text{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #073d79;
 }
 
 
-.title__link {
-    text-align: center;
-}
 
 
-.title__logo {
-    text-align: center;
-}
+
+
