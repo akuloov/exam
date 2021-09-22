@@ -217,12 +217,27 @@
         
     }
     
+    &-text{
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        margin-top: 0;
+        text-align: center;
+        margin-top: 37px;
+    }
+    
     &__image{
         position: absolute;
         top: 195px;
         left: -200px;
 
     }
+    
+    &-link{
+       
+    }
+    
 }
 
 .title__logo{
@@ -236,6 +251,29 @@
     line-height: 16px;
     color: #073d79;
 }
+
+.iframe__image_bottom{
+    position: absolute;
+    right: -4px;
+    bottom: 141px;
+}
+
+.text__first_bold{
+    font-weight: 700;
+}
+
+.link__button{
+    max-width: 405px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #01983b;
+    background-image: url(../../image/pattern.png);
+    background-repeat: repeat;
+    
+    border-radius: 3px;
+}
+
 
 
 
