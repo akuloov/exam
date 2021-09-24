@@ -224,7 +224,7 @@
         font-weight: 400;
         margin-top: 0;
         text-align: center;
-        margin-top: 37px;
+        margin-top: 48px;
     }
     
     &__image{
@@ -255,14 +255,15 @@
 .iframe__image_bottom{
     position: absolute;
     right: -4px;
-    bottom: 141px;
+    bottom: 230px;
 }
 
 .text__first_bold{
     font-weight: 700;
 }
 
-.link__button{
+.video-block-link{
+    display: block;
     max-width: 405px;
     height: 53px;
     margin-left: auto;
@@ -270,9 +271,27 @@
     background-color: #01983b;
     background-image: url(../../image/pattern.png);
     background-repeat: repeat;
-    
     border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: 36px;
+    
+    &__text{
+        display: inline;
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.39);
+        position: absolute;
+        top: -15px;
+        left: 40px;
+    }
 }
+
+
+
 
 
 
