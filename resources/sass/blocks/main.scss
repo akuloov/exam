@@ -200,24 +200,24 @@
     background-image: url(../../image/bgc-frame.jpg);
     background-repeat: no-repeat;
     background-size: 100% 406px;
-    height: 800px;
+    height: 850px;
     padding-top: 68px;
     position: relative;
- 
+
 }
 
 .video-block {
-    
-    &-title{
+
+    &-title {
         text-align: center;
     }
-    
-    &-iframe{
+
+    &-iframe {
         text-align: center;
-        
+
     }
-    
-    &-text{
+
+    &-text {
         font-family: Arial, sans-serif;
         font-size: 14px;
         line-height: 17px;
@@ -226,43 +226,41 @@
         text-align: center;
         margin-top: 48px;
     }
-    
-    &__image{
+
+    &__image {
         position: absolute;
         top: 195px;
         left: -200px;
 
     }
-    
-    &-link{
-       
-    }
-    
+
+    &-link {}
+
 }
 
-.title__logo{
+.title__logo {
     max-width: 375px;
     max-height: 30px;
 }
 
-.title__text{
+.title__text {
     font-size: 30px;
     font-weight: 700;
     line-height: 16px;
     color: #073d79;
 }
 
-.iframe__image_bottom{
+.iframe__image_bottom {
     position: absolute;
     right: -4px;
     bottom: 230px;
 }
 
-.text__first_bold{
+.text__first_bold {
     font-weight: 700;
 }
 
-.video-block-link{
+.video-block-link {
     display: block;
     max-width: 405px;
     height: 53px;
@@ -277,8 +275,8 @@
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
     position: relative;
     margin-top: 36px;
-    
-    &__text{
+
+    &__text {
         display: inline;
         font-size: 24px;
         font-weight: 700;
@@ -290,12 +288,93 @@
     }
 }
 
+.applying {
+    height: auto;
+    background-image: url(../../image/bgc-applying.jpg);
+    background-repeat: no-repeat;
 
 
+    &__title {
+        margin-top: 0;
+        font-size: 30px;
+        color: rgb(7, 61, 121);
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
 
+    }
 
+    &-container {
+        display: flex;
+        font-family: Arial;
+        color: #fff;
+        justify-content: space-between;
+    }
 
+    &__left-block {
+        max-width: 610px;
+        height: 310px;
+        background-image: url(../../image/applying-left.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+    }
 
+    &__left-subtitle {
+        padding-left: 119px;
+        padding-right: 48px;
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+    }
 
+    &__right-block {
+        max-width: 610px;
+        height: 310px;
+        background-image: url(../../image/applying-right.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+    }
 
+    &__right-subtitle {
+        padding-left: 48px;
+        padding-right: 119px;
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: right;
+    }
 
+    &__left-items {
+        text-align: right;
+        padding-right: 48px;
+    }
+    
+    &__right-items {
+        text-align: left;
+        padding-left: 48px;
+    }
+
+    &__left-item1 {}
+
+    &__bottom {
+        position: absolute;
+        bottom: 0;
+        height: 24px;
+        background-color: rgba(255, 255, 255, 0.2);
+        width: 100%;
+
+        &_left {
+            text-align: right;
+            padding-right: 48px;
+        }
+        
+        &_right {
+            text-align: left;
+            padding-left: 48px;
+        }
+    }
+
+    &__img {
+        vertical-align: middle;
+    }
+}
